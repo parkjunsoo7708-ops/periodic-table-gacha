@@ -1,9 +1,9 @@
 import random
 
 def gacha(draw_pool)
-total_weight = 47
+total_weight = 94
 
-random_val = random.uniform(0, 47)
+random_val = random.uniform(0, 94)
 
 current_weight = 0
 for item in draw_pool:
@@ -569,3 +569,8 @@ for item in draw_pool:
 current_weight += item['weight']
 if random_val <= current_weight:
 	return item['Pu']
+	
+	items = ['SSR', 'SR', 'R']
+	probabilities[3, 17, 80]
+	
+	print(f"congrats! {draw_gacha()} you got rarity)
